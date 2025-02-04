@@ -71,23 +71,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - --github_token=${{ inputs.GITHUB_TOKEN }}
-    - --github_api_url=${{ inputs.github_api_url }}
-    - --xs_label=${{ inputs.xs_label }}
-    - --xs_max_size=${{ inputs.xs_max_size }}
-    - --s_label=${{ inputs.s_label }}
-    - --s_max_size=${{ inputs.s_max_size }}
-    - --m_label=${{ inputs.m_label }}
-    - --m_max_size=${{ inputs.m_max_size }}
-    - --l_label=${{ inputs.l_label }}
-    - --l_max_size=${{ inputs.l_max_size }}
-    - --xl_label=${{ inputs.xl_label }}
-    - --fail_if_xl=${{ inputs.fail_if_xl }}
-    - --message_if_xl="${{ inputs.message_if_xl }}"
-    - --files_to_ignore=${{ inputs.files_to_ignore }}
-    - --ignore_line_deletions=${{ inputs.ignore_line_deletions }}
-    - --ignore_file_deletions=${{ inputs.ignore_file_deletions }}
 branding:
   icon: 'tag'
   color: 'green'
