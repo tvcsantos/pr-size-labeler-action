@@ -29,7 +29,7 @@ main() {
     "$INPUT_L_LABEL" \
     "$INPUT_L_MAX_SIZE" \
     "$INPUT_XL_LABEL" \
-    "$INPUT_FAILE_IF_XL" \
+    "$INPUT_FAIL_IF_XL" \
     "$INPUT_MESSAGE_IF_XL" \
     "$INPUT_FILES_TO_IGNORE" \
     "$INPUT_IGNORE_LINE_DELETIONS" \
